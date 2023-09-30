@@ -6,13 +6,13 @@ SpaceX strives to make space travel affordable for everyone. Its accomplishments
 ## executive summary
 The research attempts to identify the factors for a successful rocket landing. To make this determination, the following methodologies were used:
 
-Collect data using SpaceX REST API and web scraping techniques\
-Wrangle data to create a success/fail outcome variable\
-Explore data with data visualization techniques, considering the following factors: payload, launch site, flight number, and yearly trend\
-Analyze the data with SQL, calculating the following statistics: total payload, payload range for successful launches, and total # of successful and failed outcomes\
-Explore launch site success rates and proximity to geographical markers\
-Visualize the launch sites with the most successful payload ranges\
-Build Models to predict landing outcomes using logistic regression, support vector machine (SVM), decision tree, and K-nearest neighbor (KNN)\
+- Collect data using SpaceX REST API and web scraping techniques
+- Wrangle data to create a success/fail outcome variable
+- Explore data with data visualization techniques, considering the following factors: payload, launch site, flight number, and yearly trend
+- Analyze the data with SQL, calculating the following statistics: total payload, payload range for successful launches, and total # of successful and failed outcomes
+- Explore launch site success rates and proximity to geographical markers
+- Visualize the launch sites with the most successful payload ranges
+- Build Models to predict landing outcomes using logistic regression, support vector machine (SVM), decision tree, and K-nearest neighbor (KNN)
 
 ## data collection for API
 Request data from SpaceX API (rocket launch data)
