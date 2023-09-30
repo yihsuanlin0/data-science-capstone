@@ -48,21 +48,21 @@ Create dashboard
 Pie chart showing successful launches
 Scatter chart showing Payload Mass vs. Success Rate by Booster Version
 ### Predictive Analytics
-Create a NumPy array from the Class column
-Standardize the data with StandardScaler. Fit and transform the data.
-Split the data using train_test_split
-Create a GridSearchCV object with cv=10 for parameter optimization
-Apply GridSearchCV on different algorithms: logistic regression (LogisticRegression()), support vector machine (SVC()), decision tree (DecisionTreeClassifier()), K-Nearest Neighbor (KNeighborsClassifier())
-Calculate accuracy on the test data using .score() for all models
-Assess the confusion matrix for all models
-Identify the best model using Jaccard_Score, F1_Score, and Accuracy
+- Create a NumPy array from the Class column
+- Standardize the data with StandardScaler. Fit and transform the data.
+- Split the data using train_test_split
+- Create a GridSearchCV object with cv=10 for parameter optimization
+- Apply GridSearchCV on different algorithms: logistic regression (LogisticRegression()), support vector machine (SVC()), decision tree (DecisionTreeClassifier()), K-Nearest Neighbor (KNeighborsClassifier())
+- Calculate accuracy on the test data using .score() for all models
+- Assess the confusion matrix for all models
+- Identify the best model using Jaccard_Score, F1_Score, and Accuracy
 
 ## conclusion
-Model Performance: The models performed similarly on the test set with the decision tree model slightly outperforming
-Equator: Most of the launch sites are near the equator for an additional natural boost - due to the rotational speed of Earth - which helps save the cost of putting in extra fuel and boosters
-Coast: All the launch sites are close to the coast
-Launch Success: Increases over time
-KSC LC-39A: Has the highest success rate among launch sites. Has a 100% success rate for launches less than 5,500 kg
-Orbits: ES-L1, GEO, HEO, and SSO have a 100% success rate
-Payload Mass: Across all launch sites, the higher the payload mass (kg), the higher the success rate
+- Model Performance: The models performed similarly on the test set with the decision tree model slightly outperforming
+- Equator: Most of the launch sites are near the equator for an additional natural boost - due to the rotational speed of Earth - which - - helps save the cost of putting in extra fuel and boosters
+- Coast: All the launch sites are close to the coast
+- Launch Success: Increases over time
+- KSC LC-39A: Has the highest success rate among launch sites. Has a 100% success rate for launches less than 5,500 kg
+- Orbits: ES-L1, GEO, HEO, and SSO have a 100% success rate
+- Payload Mass: Across all launch sites, the higher the payload mass (kg), the higher the success rate
 
