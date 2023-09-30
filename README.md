@@ -15,23 +15,23 @@ The research attempts to identify the factors for a successful rocket landing. T
 - Build Models to predict landing outcomes using logistic regression, support vector machine (SVM), decision tree, and K-nearest neighbor (KNN)
 
 ## data collection for API
-Request data from SpaceX API (rocket launch data)
-Decode response using .json() and convert to a dataframe using .json_normalize()
-Request information about the launches from SpaceX API using custom functions
-Create a dictionary from the data
-Create a data frame from the dictionary
-Filter data frame to contain only Falcon 9 launches
-Replace missing values of Payload Mass with calculated .mean()
-Export data to CSV file
+- Request data from SpaceX API (rocket launch data)
+- Decode response using .json() and convert to a dataframe using .json_normalize()
+- Request information about the launches from SpaceX API using custom functions
+- Create a dictionary from the data
+- Create a data frame from the dictionary
+- Filter data frame to contain only Falcon 9 launches
+- Replace missing values of Payload Mass with calculated .mean()
+- Export data to CSV file
 
 ## Data collection for web scraping
-Request data (Falcon 9 launch data) from Wikipedia
-Create BeautifulSoup object from HTML response
-Extract column names from the HTML table header
-Collect data from parsing HTML tables
-Create a dictionary from the data
-Create a data frame from the dictionary
-Export data to CSV file
+- Request data (Falcon 9 launch data) from Wikipedia
+- Create BeautifulSoup object from HTML response
+- Extract column names from the HTML table header
+- Collect data from parsing HTML tables
+- Create a dictionary from the data
+- Create a data frame from the dictionary
+- Export data to CSV file
 
 ## data wrangling
 Convert outcomes into 1 for a successful landing and 0 for an unsuccessful landing
